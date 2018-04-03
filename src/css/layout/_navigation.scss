@@ -1,0 +1,60 @@
+.nav-item{
+	margin-left: 2rem;
+}
+
+.nav-link{
+	font-family: "Lato-Black", sans-serif;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	letter-spacing: 1px;
+	color: #3d3d3d;
+}
+
+.navbar-brand{
+	max-width: 17rem;
+	max-height: 15rem;
+	padding-top: 0;
+}
+
+.navbar{
+	align-items:end;
+	padding-top: 0;
+}
+
+.navbar-nav{
+	padding-top: 1.6rem;
+}
+
+.nav-link:hover, .active, .dropdown-item:hover{
+	color: $color-primary;
+}
+
+
+.navbar-toggler .fa{
+	font-size: 2.5rem;
+	margin-top: 2rem
+
+}
+
+.dropdown-menu{
+	border: none;
+	background-color: transparent;
+
+	font-family: "Lato-Black-Italic", sans-serif;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	letter-spacing: 1px;
+	color: #3d3d3d;
+}
+
+.dropdown-item{
+	padding-left: .25rem;
+}
+
+.dropdown-item:hover{
+	background-color: transparent;
+}
+
+.dropdown-menu--white a{
+	color: #fff;
+}

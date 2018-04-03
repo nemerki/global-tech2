@@ -1,0 +1,38 @@
+.advantages{
+	background-image: linear-gradient(to right bottom, rgba(0, 169, 157, 0.7), rgba(0, 169, 157, 0.7)), url('../img/advantegbg.png');
+	background-size: cover;
+	color: #fff;
+	padding-bottom: 6rem;
+
+	&__tittle{
+		padding-top: 7rem;
+		margin-bottom: 14rem;
+		font-size: 3.5rem;
+		font-family: 'Lato-Black',sans-serif;
+		text-align: center;
+
+			@include respondmax(sm){
+			
+			font-size: 2.5rem;
+
+		}
+
+
+	}
+
+	&__icon{
+
+	}
+
+	&__head{
+		font-size: 2.5rem;
+		font-family: 'Lato-Black',sans-serif;
+		margin-bottom: 1rem;
+	}
+
+	&__text{
+		font-size: 1.8rem;
+		font-family: 'Lato-Regular',sans-serif;
+		margin-bottom: 8rem;
+	}
+}

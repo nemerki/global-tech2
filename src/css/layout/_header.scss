@@ -1,0 +1,114 @@
+.header{
+	background-image: url('../../img/header.png');
+	background-size: cover;
+	background-position: center center;
+	padding-bottom: 11rem;
+
+	&__info{
+		font-size: 2rem;
+		font-family: 'Lato', sans-serif;
+		
+
+		display: flex;
+		justify-content: flex-end;
+
+		&--balack{
+			color: #000 !important;
+		}
+
+		&--white{
+			color: #fff;
+		}
+
+		.dropdown-toggle{
+			background-color: transparent !important;
+			color: #000 !important;
+			border: none;
+			font-size: 1.3rem;
+
+		}
+
+		.btn-group{
+			margin-left: 3rem;
+
+			.btn:focus, .btn.focus {
+
+				box-shadow: none;
+			}
+
+			&--white button, &--white a{
+				color: #fff !important;				
+
+			}
+		}
+		.dropdown-item{
+			display: inline-block;
+			width: inherit;
+			padding: 0;
+		}
+
+
+
+		
+		@include respondmax(sm){
+			font-size: 1.5rem;			
+
+		}
+
+		p{
+			margin-bottom: 0;
+		}
+	}
+
+	&__info-tel{
+		margin-left: 1.3rem;
+	}
+
+	.logo{
+
+		@include respondmax(md){
+			width: 11rem;			
+
+		}
+
+		@include respondmax(sm){
+			width: 9rem;			
+
+		}
+	}
+
+}
+
+.header2{
+	background-image: url('../../img/headerbg2.png');
+	background-size: cover;
+	background-position: center center;
+	padding-bottom: 11rem;
+	max-height: 34rem;
+
+
+
+
+	.nav-link{
+		color: #fff;
+	}
+
+	.navbar-toggler .fa{
+		color: #fff;
+	}
+
+	.logo{
+
+		@include respondmax(md){
+			width: 11rem;			
+
+		}
+
+		@include respondmax(sm){
+			width: 9rem;			
+
+		}
+	}
+
+}
+

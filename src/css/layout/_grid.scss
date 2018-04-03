@@ -1,0 +1,42 @@
+.myRow {
+
+    @include clearfix;
+
+    [class^="col-"] {
+        float: left;
+
+        &:not(:last-child) {
+            margin-right: $gutter-horizontal;
+
+            @include respondmax(md) {
+                margin-right: 0;
+                margin-bottom: $gutter-vertical-small;
+            }
+        }
+
+        @include respondmax(md) {
+            width: 100% !important;
+            text-align: center;
+        }
+    }
+
+
+
+    .col-1-of-5 {
+        width: calc((100% - 4 * #{$gutter-horizontal}) / 5);
+    }
+
+    .col-2-of-5 {
+        width: calc(2 * ((100% - 4 * #{$gutter-horizontal}) / 4) + #{$gutter-horizontal});
+    }
+
+    .col-3-of-5 {
+        width: calc(3 * ((100% - 4 * #{$gutter-horizontal}) / 4) + 2 * #{$gutter-horizontal});
+    }
+
+    .col-4-of-5 {
+        width: calc(4 * ((100% - 4 * #{$gutter-horizontal}) / 4) + 3 * #{$gutter-horizontal});
+    }
+
+}
+

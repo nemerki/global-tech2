@@ -1,0 +1,96 @@
+.news{
+
+	&__tittle{
+		font-size: 3.5rem;
+		font-family: 'Lato-Black', sans-serif;
+		text-align: center;
+		margin-top: 7rem;
+		margin-bottom: 7rem;
+
+
+
+	}
+
+	&__box{
+		position: relative;
+		margin-bottom: 7rem;
+	}
+
+
+	.card{
+
+		max-width: 37rem;
+		border: none;
+	}
+
+	.card-body{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.card-text{
+		font-size: 1.8rem;
+		font-family: 'Lato-Regular', sans-serif;
+
+	}
+
+
+
+	&__card-tittle{
+		background-color: $color-primary;
+		font-size: 2.5rem;
+		font-family: 'Lato-Black', sans-serif;
+		width: 37rem;
+		position: absolute;
+		left: 10rem;
+		margin: 0;
+		top: 57.5%;
+		color: #fff;
+
+		&:hover{
+			text-decoration: none;
+			color: #fff;
+		}
+
+		@include respondmax(lg){
+			width: 30rem;
+			left: 5rem;
+			top: 49.5%;
+			font-size: 1.7rem;
+		}
+
+
+		@include respondmax(md){
+			width: 37rem;
+			left: 10rem;
+			top: 57.5%;
+			font-size: 2.5rem;
+		}
+		@include respondmax(sm){
+			width: 27rem;
+			left: 3rem;
+			top: 56%;
+			font-size: 1.7rem;
+
+		}
+
+	}
+
+	&__btn{
+		color: $color-primary;
+		padding: .5rem 1.5rem;
+		font-size: 1.3rem;
+		border-color: $color-primary;
+		border-radius: 3px;
+		margin-bottom: 7.5rem;
+		margin-top: 4.5rem;
+		font-family: 'Lato-Bold', sans-serif;
+
+		&:hover{
+			background-color: $color-primary;
+			color:#fff;
+		}
+	}
+
+	
+}

@@ -1,0 +1,54 @@
+.contact-box{
+
+	max-width: 37rem;
+	margin-left: auto;
+	background-color: #fff;
+
+	&__header{
+		background-color: #3d3d3d;
+		font-size: 3rem;
+		color: #fff;
+		text-align: center;
+		font-family: "Lato-Black", sans-serif;
+		padding: .7rem 0;
+	}
+
+	&__content{
+		padding: 0 2rem 1.5rem;
+
+	}
+
+	input, select, textarea{
+		font-size: 1.4rem;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		color: #9f9f9f;
+		font-family: 'Lato-Regular', sans-serif;
+		margin-top: 3rem;
+
+
+		&:focus{
+			box-shadow: none;
+
+		}  
+
+	}
+
+	&__btn{
+		font-family: "Lato-Bold", sans-serif;
+		font-size: 2rem;
+		background-color: $color-primary;
+		border-radius: 5px;
+		color:#fff;
+		letter-spacing: 1px;
+		margin-top: 2.5rem;
+
+		&:hover{
+			color: #fff;
+		}
+
+	}
+
+
+}

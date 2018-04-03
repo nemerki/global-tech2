@@ -9,7 +9,7 @@ html{
 	height: 100%;
 	font-size: 62.5%; //burda rem'in 10 piksel olmasını ayarladık ki rahat değer verebilelim tarayıcı 16 piksel veriyor biz onun 62.5 faizini alarak 10 yaptık
 
-	/* @include respondmax(md){
+/* 	@include respondmax(md){
 		font-size: 40%;
 	} 
 
@@ -23,7 +23,7 @@ html{
 
 	@include respondmin(xl){
 		font-size: 62.5% ; //1rem=12px
-	}		 */
+	} */		
 
 }
 
@@ -34,3 +34,28 @@ body{
 
 }
 
+@media (min-width: 1300px){
+	.container {
+		max-width: 1200px;
+	}
+}
+
+@font-face {
+	font-family:Lato-Black;
+	src:url("../../fonts/Lato-Black.ttf");
+}
+
+@font-face {
+	font-family:Lato-Bold;
+	src:url("../../fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+	font-family:Lato-Regular;
+	src:url("../../fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+	font-family:Lato-Black-Italic;
+	src:url("../../fonts/Lato-BlackItalic.ttf");
+}

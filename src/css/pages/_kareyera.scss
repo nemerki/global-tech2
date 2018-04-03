@@ -1,0 +1,42 @@
+.kareyera{
+
+	.kareyera__tittle{
+		text-align: center;
+		margin-top: 5rem;
+		margin-bottom: 5rem;
+		font-family: 'Lato-Black', sans-serif;
+	}
+
+	.card {
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		height: 100%;
+		border-bottom: 3px solid $color-primary;
+	}
+
+	.card-title {
+		text-align: center;
+		font-family: 'Lato-Regular', sans-serif;
+		font-size: 2rem;
+		color: #fff;
+		background-color: $color-primary;
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+	}
+
+	.card-body {
+		padding: 0;
+	}
+
+	.card-text {
+		padding: 1.5rem 1.5rem 1rem 1.5rem;
+		font-family: 'Lato-Regular', sans-serif;
+		font-size: 1.5rem;
+	}
+
+	a:hover {
+		text-decoration: none;
+
+	}
+}

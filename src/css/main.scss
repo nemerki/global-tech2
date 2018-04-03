@@ -1,7 +1,6 @@
-@import "abstracts/normalize";
 @import "abstracts/bt5start";
- 
-  
+
+
 @import "abstracts/function";
 @import "abstracts/mixin";
 @import "abstracts/variables";
@@ -12,17 +11,25 @@
 
 
 @import "components/about"; 
+@import "components/contact-box";
+@import "components/services-box";
 
 
-   
 
+@import "layout/grid";
 @import "layout/footer";
 @import "layout/header";
 @import "layout/navigation";
+@import "layout/services";
+@import "layout/advantages";
+@import "layout/news";
+@import "layout/customer-reviews";
+@import "layout/partners";
 
 
 
-  
+@import "pages/aboutUs";
+@import "pages/kareyera";
+@import "pages/contact";
 
 @import "abstracts/bt5end";
-   
