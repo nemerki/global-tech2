@@ -1,0 +1,16 @@
+.islerimizic {
+	padding-top: 5rem;
+
+	&__img {
+		margin-bottom: 3rem;
+		width: 100%;
+	}
+
+	p {
+		@include font($lbl, 1.8rem);;
+	}
+
+	span {
+		@include font($lr);;
+	}
+}

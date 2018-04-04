@@ -9,11 +9,11 @@
 */
 
 @mixin clearfix {
-    &::after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+	&::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
 }
 
 
@@ -62,6 +62,26 @@
 	@if $breakpoint == xl {
 		@media (max-width: 1199px) {@content};
 	}
-
 	
+}
+
+
+
+@mixin font($ff: false, $s: false, $c: false, $w: false,  $lh: false) {
+
+	@if $ff {  font-family: $ff, Helvetica, Arial, sans-serif;}
+	@if $s { font-size: $s; }
+	@if $c { color: $c; }
+	@if $w { font-weight: $w; }
+	@if $lh { line-height: $lh; }
+}
+
+@mixin font-family($font) {
+	font-family: $font;
+	src: url('../../fonts/#{$font}.eot');
+	src: url('../../fonts/#{$font}.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/#{$font}.woff2') format('woff2'),
+	url('../../fonts/#{$font}.woff') format('woff'),
+	url('../../fonts/#{$font}.ttf') format('truetype'),
+	url('../../fonts/#{$font}.svg##{$font}') format('svg');
 }
