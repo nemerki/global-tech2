@@ -475,6 +475,19 @@ body {
 .dropdown-menu--white a {
   color: #fff; }
 
+.fixed-top--size {
+  width: 100%;
+  padding: 0 20%;
+  position: fixed;
+  background-color: #fff; }
+  .fixed-top--size img {
+    width: 7rem; }
+  .fixed-top--size .navbar-brand {
+    width: 7rem; }
+
+.fixed-top--dark {
+  background-color: #7e7e7e; }
+
 .services {
   padding-bottom: 11rem; }
   .services__tittle {
