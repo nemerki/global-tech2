@@ -79,6 +79,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*! WEBCODER - http://webcoder.az/ Mehemmed Memmedli  16 Aprel 2018  https://github.com/nemerki */
 /*
 -sm
 -m
@@ -488,6 +489,15 @@ body {
 .fixed-top--dark {
   background-color: #7e7e7e; }
 
+.header__info .dropdown-menu {
+  min-width: 5rem;
+  background-color: #22b573;
+  z-index: 10000;
+  text-align: center; }
+
+.header__info .dropdown-menu a {
+  display: block; }
+
 .services {
   padding-bottom: 11rem; }
   .services__tittle {
@@ -758,6 +768,15 @@ body {
     font-size: 1.8rem; }
   .islerimizic span {
     font-family: Lato-Regular, Helvetica, Arial, sans-serif; }
+
+.xeberleric {
+  padding-bottom: 12rem; }
+  .xeberleric img {
+    max-height: 500px; }
+  .xeberleric .aboutUs__tittle {
+    margin-top: 9rem; }
+  .xeberleric .aboutUs__text {
+    margin-top: 5rem; }
 
 /* ==========================================================================
    Helper classes

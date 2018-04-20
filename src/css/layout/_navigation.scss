@@ -79,4 +79,12 @@
 	background-color: #7e7e7e;
 }
 
-
+.header__info  .dropdown-menu{
+  min-width: 5rem;
+  background-color: $color-primary;
+  z-index:  10000;
+  text-align: center
+}
+.header__info .dropdown-menu a{
+  display: block;
+}

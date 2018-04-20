@@ -35,7 +35,7 @@
 $(function(){
 	$(".owl-carousel").owlCarousel({
 		loop:true,
-		margin:10,
+		margin:100,
 		
 		autoplay:true,
 		responsive:{
@@ -50,7 +50,12 @@ $(function(){
 			}
 		}
 	});
+
+
 });
+
+
+
 $(document).ready(function() {
 
   var scrollLink = $('.scroll');
@@ -59,7 +64,7 @@ $(document).ready(function() {
   scrollLink.click(function(e) {
     e.preventDefault();
     $('body,html').animate({
-      scrollTop: $(this.hash).offset().top
+      scrollTop: $(this.hash).offset().top-65
     }, 1000 );
   });
   
